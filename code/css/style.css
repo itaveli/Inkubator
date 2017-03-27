@@ -30,6 +30,7 @@ header{
 	flex-direction: row;
 	display:flex;
 	font-weight: 500;
+	z-index: 9999;
 }
 
 .logo img{
