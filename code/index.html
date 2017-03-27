@@ -5,6 +5,8 @@
 	<title>Inkubator</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+	<script type="text/javascript" src="js/jquery.backgroundMove.js"></script>
 </head>
 <body>
 
@@ -36,25 +38,23 @@
 
 </header>
 <!-- делал машан -->
-
-<div class="smt"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- Mr. Titov banner begin -->
+<section class="banner">
+    <div class="move">
+    	<div class="dust1">
+    		<div class="dust2">
+    			<div class="dust3">
+    				<div class="dust4">
+    					<div class="text"><h1>Вырастим ваш сайт<br>с помощью</h1>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</section>
+ 
+<!-- Mr. Titov banner end -->
 
 
 
@@ -87,7 +87,24 @@
 
 
 
+<script type="text/javascript">
+/*	$('.move').backgroundMove({
+  		movementStrength:'50'
+	});*/
+	$('.dust1').backgroundMove({
+  		movementStrength:'125'
+	});
+	$('.dust2').backgroundMove({
+  		movementStrength:'100'
+	});
+	$('.dust3').backgroundMove({
+  		movementStrength:'75'
+	});
+	$('.dust4').backgroundMove({
+  		movementStrength:'50'
+	});
 
+</script>
 
 </body>
 </html>
