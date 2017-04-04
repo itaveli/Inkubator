@@ -61,12 +61,20 @@ header .menu{
 	position: relative;
 }
 .move {
-	background: url(../img/cube.png);
+	background: url(../img/bg_cube.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 650px;
 	z-index: 1;
+}
+.cube {
+	background: url(../img/cube.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 101%;
+	height: 650px;
+	z-index: 0;
 }
 .dust1 {
 	background: url(../img/dust1.png);
@@ -74,7 +82,7 @@ header .menu{
 	background-size: cover;
 	width: 101%;
 	height: 650px;
-	z-index: 2;
+	z-index: 3;
 }
 .dust2 {
 	background: url(../img/dust2.png);
@@ -82,7 +90,7 @@ header .menu{
 	background-size: cover;
 	width: 101%;
 	height: 650px;
-	z-index: 3;
+	z-index: 4;
 }
 .dust3 {
 	background: url(../img/dust3.png);
@@ -90,7 +98,7 @@ header .menu{
 	background-size: cover;
 	width: 101%;
 	height: 650px;
-	z-index: 4;
+	z-index: 5;
 }
 .dust4 {
 	background: url(../img/dust4.png);
@@ -98,7 +106,7 @@ header .menu{
 	background-size: cover;
 	width: 101%;
 	height: 650px;
-	z-index: 5;
+	z-index: 6;
 }
 .text {
 	text-align: center;
