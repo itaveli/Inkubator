@@ -1,6 +1,6 @@
 /*тут был машан*/
 body{
-	background-color: #202532;
+	background-color: #0e182c;
 	margin:0;
 	font-size: 17px;
 	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -17,7 +17,6 @@ header a:hover{
 	width:100%;
 	height:6em;
 	background-color: #070b14;
-	
 }
 header{
 	width:100%;
@@ -32,7 +31,6 @@ header{
 	font-weight: 500;
 	z-index: 9999;
 }
-
 .logo img{
 	height:3.5em;
 	margin: 1em 0 0 1em;
@@ -59,11 +57,9 @@ header .menu{
 }
 
 /***********************************Banner******************************/
-
 .banner {
 	position: relative;
 }
-
 .move {
 	background: url(../img/cube.png);
 	background-repeat: no-repeat;
@@ -72,7 +68,6 @@ header .menu{
 	height: 650px;
 	z-index: 1;
 }
-
 .dust1 {
 	background: url(../img/dust1.png);
 	background-repeat: no-repeat;
@@ -81,7 +76,6 @@ header .menu{
 	height: 650px;
 	z-index: 2;
 }
-
 .dust2 {
 	background: url(../img/dust2.png);
 	background-repeat: no-repeat;
@@ -90,7 +84,6 @@ header .menu{
 	height: 650px;
 	z-index: 3;
 }
-
 .dust3 {
 	background: url(../img/dust3.png);
 	background-repeat: no-repeat;
@@ -99,7 +92,6 @@ header .menu{
 	height: 650px;
 	z-index: 4;
 }
-
 .dust4 {
 	background: url(../img/dust4.png);
 	background-repeat: no-repeat;
@@ -107,24 +99,113 @@ header .menu{
 	width: 101%;
 	height: 650px;
 	z-index: 5;
-	position: relative;
 }
-
 .text {
 	text-align: center;
-}
-
-.text h1 {
-	text-transform: uppercase;
 	color: #ffffff;
+	position: relative;
+}
+.text h1 {
 	position: absolute;
-	right: 10%;
+	left: 57%;
 	top: 100px;
-	font-size: 2.5rem;
-	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 3rem;
+}
+.text .small_text p{
+	position: absolute;
+	left: 56%;
+	top: 350px;
+	font-size: 1.3rem;
+}
+.slider_banner {
+	position: absolute;
+	max-width: 150px;
+	left: 68.5%;
+	top: 260px;
+	font-size: 3rem;
+	color: #30c7d9;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: #ffffff 2px 0px, #ffffff 2px 2px, 
+	#ffffff 0px 2px, #ffffff -2px 2px, #ffffff -2px 0px, 
+	#ffffff -2px -2px, #ffffff 0px -2px, #ffffff 2px -2px;
+}
+/***********************************Jobs******************************/
+.jobs {
+	height: 100px;
+}
+/***********************************Process******************************/
+.slider_process .sl .sl_img {
+	width: 100%;
+}
+.sl_slide {
+	position: relative;
+	color: #ffffff;
+}
+.sl_text {
+	position: absolute;
+	top: 100px;
+	width: 40%;
+	margin-left: 5%;
+}
+.sl_text h3{
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+.button {
+color: rgb(230, 230, 230);
+font-size: 15px;
+padding: 10px;
+border: 1px solid #ffffff;
+outline: none;
+}
+.slider_process .sl .sl_text a{
+	text-decoration: none;
+}
+.slick-dotted.slick-slider {
+	margin-bottom: 80px;
+}
+.slick-dots li {
+	margin: 100px 5% 0 5%;
 
 }
-
+.slick-dots li button {
+	border: 10px solid #00589c;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+}
+.slick-dots li button:before {
+	content: "";
+}
+.slick-dots li button:hover {
+	border-color: #d6e4ef;
+}
+.slick-dots li button:hover:before {
+	background: #a1bcd3;
+	opacity: 1;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	margin: -1px 0 0 -1px;
+}
+.slider_process {
+	position: relative;
+}
+.process {
+	font-size: 1.7rem;
+	position: absolute;
+	text-transform: uppercase;
+	top: -60px;
+	border-top: 1px solid #27507e;
+	border-left: 1px solid #27507e;
+	border-right: 1px solid #27507e;
+	right: 0;
+	color: #ffffff;
+	padding: 10px 15px;
+}
 /*******************************footer***********************************/
 footer{
 	background-color:#070b14;
