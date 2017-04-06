@@ -59,20 +59,22 @@ header .menu{
 /***********************************Banner******************************/
 .banner {
 	position: relative;
+	max-width: 1140px;
+	margin: 0 auto;
 }
 .move {
 	background: url(../img/bg_cube.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 650px;
+	height: 600px;
 	z-index: 1;
 }
 .cube {
 	background: url(../img/cube.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 101%;
+	width: 100%;
 	height: 650px;
 	z-index: 0;
 }
@@ -80,7 +82,7 @@ header .menu{
 	background: url(../img/dust1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 101%;
+	width: 100%;
 	height: 650px;
 	z-index: 3;
 }
@@ -88,7 +90,7 @@ header .menu{
 	background: url(../img/dust2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 101%;
+	width: 100%;
 	height: 650px;
 	z-index: 4;
 }
@@ -96,7 +98,7 @@ header .menu{
 	background: url(../img/dust3.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 101%;
+	width: 100%;
 	height: 650px;
 	z-index: 5;
 }
@@ -104,7 +106,7 @@ header .menu{
 	background: url(../img/dust4.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 101%;
+	width: 100%;
 	height: 650px;
 	z-index: 6;
 }
@@ -115,28 +117,69 @@ header .menu{
 }
 .text h1 {
 	position: absolute;
-	left: 57%;
+	left: 51%;
 	top: 100px;
 	font-size: 3rem;
+	margin: 0;
+	padding-top: 50px;
+	/*padding-bottom: 10px;*/
 }
 .text .small_text p{
 	position: absolute;
-	left: 56%;
+	left: 50%;
 	top: 350px;
 	font-size: 1.3rem;
 }
 .slider_banner {
 	position: absolute;
 	max-width: 150px;
-	left: 68.5%;
+	left: 64%;
 	top: 260px;
 	font-size: 3rem;
 	color: #30c7d9;
 	text-transform: uppercase;
 	font-weight: bold;
+	padding-top: 30px;
 	text-shadow: #ffffff 2px 0px, #ffffff 2px 2px, 
 	#ffffff 0px 2px, #ffffff -2px 2px, #ffffff -2px 0px, 
 	#ffffff -2px -2px, #ffffff 0px -2px, #ffffff 2px -2px;
+}
+@media (max-width: 1050px) {
+	.text h1 {
+		position: static;
+	}
+	.text .small_text p{
+		position: static;
+	}
+	.slider_banner {
+		position: static;
+		margin: 0 auto;
+	}
+	.move {
+		height: 500px;
+	}
+	.dust1, .dust2, .dust3, .dust4 {
+		height: 550px;
+	}
+
+}
+@media (max-width: 980px) {
+	.text h1 {
+		position: static;
+	}
+	.text .small_text p{
+		position: static;
+	}
+	.slider_banner {
+		position: static;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 760px) {
+	.cube {
+		background: url(../img/cube_760.png) no-repeat;
+		background-size: auto;
+	}
 }
 /***********************************Jobs******************************/
 .jobs {
