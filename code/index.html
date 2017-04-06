@@ -7,8 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fisStyle.css">
 	<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
 	<script type="text/javascript" src="js/jquery.backgroundMove.js"></script>
+	<script src="js/parallax.js"></script>
 
 </head>
 <body>
@@ -67,6 +69,99 @@
     </div>
 </section>
 <!-- Mr. Titov banner end -->
+<section class="fron-end">
+<h3>МЫ ОКАЗЫВАЕМ ЛЮБЫЕ FRONT-END<br>УСЛУГИ</h3>
+<div class="paralax">
+
+	<div class="wor">
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="0.07" style="margin-left: -35px;"><img src="img/wor/1.png"></li>
+			<li class="layer" data-depth="0.17"><img src="img/wor/2.png"></li>			
+		</ul>
+		<h4>РАЗРАБОТКА</h4>
+		<ul class="wor_text">
+			<li><a href="#">Подпункт</a></li>
+			<li><a href="#">Подпункт</a></li>
+			<li><a href="#">Подпункт</a></li>			
+		</ul>
+	</div>	
+	<div class="des">
+		<ul id="scene3" class="scene3">
+			<li class="layer" data-depth="0.07" style="margin-left: -40px; margin-top: -24px;"><img src="img/des/1.png"></li>
+			<li class="layer" data-depth="0.17"><img src="img/des/2.png"></li>
+			<li class="layer" data-depth="0.35"><img src="img/des/3.png"></li>
+			<li class="layer" data-depth="0.45"><img src="img/des/4.png"></li>				
+		</ul>
+		<h4>ДИЗАЙН</h4>
+		<ul class="des_text">
+			<li><a href="#">Подпункт</a></li>
+			<li><a href="#">Подпункт</a></li>
+			<li><a href="#">Подпункт</a></li>			
+		</ul>
+	</div>
+	<div class="cop">
+		<ul id="scene2" class="scene2">
+			<li class="layer" data-depth="0.07" style="margin-left: -35px; margin-top: 30px;"><img src="img/cop/1.png"></li>
+			<li class="layer" data-depth="0.17"><img src="img/cop/2.png"></li>
+			<li class="layer" data-depth="0.35"><img src="img/cop/3.png"></li>				
+		</ul>
+		<h4>КОПИРАЙТИНГ</h4>
+		<ul class="cop_text">
+			<li><a href="#">Подпункт</a></li>
+			<li><a href="#">Подпункт</a></li>
+			<li><a href="#">Подпункт</a></li>			
+		</ul>
+	</div>
+	<div class="seo">
+		<ul id="scene1" class="scene1">
+			<li class="layer" data-depth="0.07" style="margin-left: -35px";><img src="img/seo/1.png"></li>
+			<li class="layer" data-depth="0.17"><img src="img/seo/2.png"></li>			
+		</ul>
+		<h4>ПРОДВИЖЕНИЕ</h4>
+		<ul class="seo_text">
+			<li><a href="#">Подпункт</a></li>
+			<li><a href="#">Подпункт</a></li>
+			<li><a href="#">Подпункт</a></li>			
+		</ul>
+	</div>	
+</div>
+</section>
+
+
+
+
+<!--OUR WORKS (by Fis)-->
+<section class="ourWorks">
+	<h1>НАШИ РАБОТЫ</h1>
+	<a href="#"><div class="work_1">
+		<div class="work_1_1">
+			
+		</div>		
+	</div></a>
+	<a href="#"><div class="work_2">
+		<div class="work_2_1">
+			
+		</div>		
+	</div></a>
+	<a href="#"><div class="work_3">
+		<div class="work_3_1">
+			
+		</div>		
+	</div></a>
+	<a href="#"><div class="work_4">
+		<div class="work_4_1">
+			
+		</div>	
+	</div></a>
+	<a href="#"><div class="work_5">
+		<div class="work_5_1">
+			
+		</div>		
+	</div></a>
+
+</section>
+<!--OUR WORKS (by Fis)-->
+
 
 <!-- Mr. Titov process end -->
 <div class="slider_process">
@@ -124,6 +219,7 @@
 </div>
 
 
+
 <!-- делал машан -->
 <footer>
 	<a class="logo" href=""><img src="img/cub.png"></a>
@@ -171,6 +267,19 @@
 	});
 
 </script>
+<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+	var scene = document.getElementById('scene1');
+	var parallax = new Parallax(scene);
+	var scene = document.getElementById('scene2');
+	var parallax = new Parallax(scene);
+	var scene = document.getElementById('scene3');
+	var parallax = new Parallax(scene);
+
+	</script>
 <script type="text/javascript" src="js/slick.js"></script>
 <script type="text/javascript" src="js/slider_banner.js"></script>
 </body>

@@ -1,0 +1,252 @@
+
+/*@import "compass/reset";*/
+
+.ourWorks {
+	min-height: 520px;
+	background: #070B14;
+	position: relative;
+	padding-top: 30px;
+	max-width: 1140px;
+	margin: 0 auto;
+		h1 {
+			color: #ffffff;
+			text-align: center;
+			font-size: 32px; 
+			margin: 0px; 
+		}
+		.work_1 {
+			width: 270px;
+			height: 370px;
+			background: transparent;
+    		background: -moz-linear-gradient(39deg, rgba(17, 26, 43, 0.8) 12%, rgba(17, 26, 43, 0.0) 90%);    				
+    		background: -webkit-linear-gradient(39deg, rgba(17, 26, 43, 0.8) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -o-linear-gradient(39deg, rgba(17, 26, 43, 0.8) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -ms-linear-gradient(39deg, rgba(17, 26, 43, 0.8) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: linear-gradient(129deg, rgba(17, 26, 43, 0.8) 12%, rgba(17, 26, 43, 0.0) 90%);
+			border: 1px solid #354D7D;
+			position: absolute;
+			top: 45px;	
+			left: 70px;		
+			z-index: 1;		
+			transition: all 0.3s;	
+				&:hover {
+					z-index: 4;
+					transform: scale(1.07);
+				}	
+				.work_1_1 {					
+					width: 230px;
+					height: 310px;
+					margin: 30px 20px;
+					background-image: url("../img/work1t.png");
+					background-repeat: no-repeat;
+				}					
+
+		}
+		.work_2 {
+			width: 270px;
+			height: 370px;
+			background: transparent;
+    		background: -moz-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);    				
+    		background: -webkit-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -o-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -ms-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+			border: 1px solid #354D7D;	
+			position: absolute;
+			left: 205px;	
+			top: 95px;	
+			z-index: 2;
+			transition: all 0.3s;
+				&:hover {
+					z-index: 4;
+					transform: scale(1.07);
+				}	
+				.work_2_1 {					
+					width: 230px;
+					height: 310px;
+					margin: 30px 20px;
+					background-image: url("../img/work2.png");
+					background-repeat: no-repeat; 
+			}			
+
+		}
+		.work_3 {
+			width: 270px;
+			height: 370px;
+			background: transparent;
+    		background: -moz-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);    				
+    		background: -webkit-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -o-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -ms-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+			border: 1px solid #354D7D;	
+			position: absolute;
+			left: 435px;	
+			top: 115px;	
+			z-index: 3;
+			transition: all 0.3s;
+				&:hover {
+					z-index: 4;
+					transform: scale(1.07);
+				}	
+				.work_3_1 {					
+					width: 230px;
+					height: 310px;
+					margin: 30px 20px;
+					background-image: url("../img/work3.png");
+					background-repeat: no-repeat; 
+			}			
+
+		}
+		.work_4 {
+			width: 270px;
+			height: 370px;
+			background: transparent;
+    		background: -moz-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);    				
+    		background: -webkit-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -o-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -ms-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+			border: 1px solid #354D7D;	
+			position: absolute;
+			right: 205px;	
+			top: 95px;	
+			z-index: 2;
+			transition: all 0.3s;
+				&:hover {
+					z-index: 4;
+					transform: scale(1.07);
+				}	
+				.work_4_1 {					
+					width: 230px;
+					height: 310px;
+					margin: 30px 20px;
+					background-image: url("../img/work4.png");
+					background-repeat: no-repeat; 
+			}			
+
+		}
+		.work_5 {
+			width: 270px;
+			height: 370px;
+			background: transparent;
+    		background: -moz-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);    				
+    		background: -webkit-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -o-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: -ms-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+    		background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
+			border: 1px solid #354D7D;	
+			position: absolute;
+			right: 75px;	
+			top: 45px;	
+			z-index: 1;
+			transition: all 0.3s;
+				&:hover {
+					z-index: 3;
+					transform: scale(1.07);
+				}	
+				.work_5_1 {					
+					width: 230px;
+					height: 310px;
+					margin: 30px 20px;
+					background-image: url("../img/work5.png");
+					background-repeat: no-repeat; 
+			}			
+
+		}
+}
+
+.fron-end {
+	max-width: 1140px;
+	margin: 0 auto;
+	background: #070B14;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 0px;
+		h3 {
+			margin: 0px;
+			font-size: 32px;
+		}
+}
+
+.paralax {
+	max-width: 1140px;
+	background: #070B14;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+		.wor {
+			flex: 1;
+				.wor_text {
+					list-style: none;
+					margin: 0px;
+					padding: 0px;
+						a {
+							color: #ffffff;
+							text-decoration: none;
+						}
+				}
+				img {
+					width: 228px;
+					height: auto;
+				}						
+		}
+
+		.seo {
+			flex: 1;
+			h3 {
+				margin-top: 33px;
+			}
+				.seo_text {
+
+					list-style: none;
+					margin: 0px;
+					padding: 0px;					
+						a {
+							color: #ffffff;
+							text-decoration: none;
+						}
+				}									
+				img {
+					width: 80%;
+					height: auto;
+				}								
+		}
+
+		.cop {
+			flex: 1;
+				.cop_text {
+					list-style: none;
+					margin: 0px;
+					padding: 0px;
+						a {
+							color: #ffffff;
+							text-decoration: none;
+						}
+				}
+				img {
+					width: 80%;
+					height: auto;
+				}											
+		}
+		.des {
+			flex: 1;
+				.des_text {
+					list-style: none;
+					margin: 0;
+					padding: 0;
+						a {
+							color: #ffffff;
+							text-decoration: none;
+						}
+				}
+				img {
+					width: 55%;
+					height: auto;
+				}											
+		}
+}
+
+
+
