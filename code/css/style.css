@@ -59,7 +59,7 @@ header .menu{
 /***********************************Banner******************************/
 .banner {
 	position: relative;
-	max-width: 1140px;
+	max-width: 90%;
 	margin: 0 auto;
 }
 .move {
@@ -180,6 +180,9 @@ header .menu{
 		background: url(../img/cube_760.png) no-repeat;
 		background-size: auto;
 	}
+}
+.banner {
+	padding-bottom: 200px;
 }
 /***********************************Jobs******************************/
 .jobs {
