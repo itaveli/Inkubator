@@ -6,7 +6,7 @@
 	background: #070B14;
 	position: relative;
 	padding-top: 30px;
-	max-width: 1140px;
+	max-width: 90%;
 	margin: 0 auto;
 		h1 {
 			color: #ffffff;
@@ -26,7 +26,7 @@
 			border: 1px solid #354D7D;
 			position: absolute;
 			top: 45px;	
-			left: 70px;		
+			left: 12%;		
 			z-index: 1;		
 			transition: all 0.3s;	
 				&:hover {
@@ -53,7 +53,7 @@
     		background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
 			border: 1px solid #354D7D;	
 			position: absolute;
-			left: 205px;	
+			left: 26%;	
 			top: 95px;	
 			z-index: 2;
 			transition: all 0.3s;
@@ -80,9 +80,9 @@
     		background: -ms-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
     		background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
 			border: 1px solid #354D7D;	
-			position: absolute;
-			left: 435px;	
-			top: 115px;	
+			position: relative;
+			margin: auto;	
+			margin-top: 45px;	
 			z-index: 3;
 			transition: all 0.3s;
 				&:hover {
@@ -109,7 +109,7 @@
     		background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
 			border: 1px solid #354D7D;	
 			position: absolute;
-			right: 205px;	
+			right: 26%;	
 			top: 95px;	
 			z-index: 2;
 			transition: all 0.3s;
@@ -137,7 +137,7 @@
     		background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0.0) 90%);
 			border: 1px solid #354D7D;	
 			position: absolute;
-			right: 75px;	
+			right: 12%;	
 			top: 45px;	
 			z-index: 1;
 			transition: all 0.3s;
@@ -157,7 +157,7 @@
 }
 
 .fron-end {
-	max-width: 1140px;
+	max-width: 90%;
 	margin: 0 auto;
 	background: #070B14;
 	color: #ffffff;
@@ -170,14 +170,14 @@
 }
 
 .paralax {
-	max-width: 1140px;
+	max-width: 90%;
 	background: #070B14;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-		.wor {
-			flex: 1;
+		.wor {			
+			width: 288px;
 				.wor_text {
 					list-style: none;
 					margin: 0px;
@@ -187,14 +187,11 @@
 							text-decoration: none;
 						}
 				}
-				img {
-					width: 228px;
-					height: auto;
-				}						
+									
 		}
 
-		.seo {
-			flex: 1;
+		.seo {			
+			width: 288px;
 			h3 {
 				margin-top: 33px;
 			}
@@ -208,14 +205,11 @@
 							text-decoration: none;
 						}
 				}									
-				img {
-					width: 80%;
-					height: auto;
-				}								
+											
 		}
 
-		.cop {
-			flex: 1;
+		.cop {			
+			width: 288px;
 				.cop_text {
 					list-style: none;
 					margin: 0px;
@@ -225,13 +219,10 @@
 							text-decoration: none;
 						}
 				}
-				img {
-					width: 80%;
-					height: auto;
-				}											
+														
 		}
-		.des {
-			flex: 1;
+		.des {			
+			width: 288px;
 				.des_text {
 					list-style: none;
 					margin: 0;
@@ -241,12 +232,70 @@
 							text-decoration: none;
 						}
 				}
-				img {
-					width: 55%;
-					height: auto;
-				}											
+													
 		}
 }
+.cub1 {
+	background-image: url(../img/pattern.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-size: 4%;
+}
+
+.cub {	
+	max-width: 90%;	
+	margin: 0 auto;
+	min-height: 700px;
+	background-image: url(../img/bg_cube.png);
+	background-repeat: no-repeat;
+	background-size: cover;	
+		#cub {
+	background-image: url(../img/cube.png);
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	}
+	#dust1 {
+	background-image: url(../img/dust1.png);
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	#dust2 {
+	background-image: url(../img/dust2.png);
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	#dust3 {
+	background-image: url(../img/dust3.png);
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	#dust4 {
+	background-image: url(../img/dust4.png);
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+  
 
 
 

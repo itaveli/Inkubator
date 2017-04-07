@@ -5,7 +5,7 @@
   background: #070B14;
   position: relative;
   padding-top: 30px;
-  max-width: 1140px;
+  max-width: 90%;
   margin: 0 auto;
 }
 /* line 11, ../sass/fisStyle.scss */
@@ -28,7 +28,7 @@
   border: 1px solid #354D7D;
   position: absolute;
   top: 45px;
-  left: 70px;
+  left: 12%;
   z-index: 1;
   transition: all 0.3s;
 }
@@ -57,7 +57,7 @@
   background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0) 90%);
   border: 1px solid #354D7D;
   position: absolute;
-  left: 205px;
+  left: 26%;
   top: 95px;
   z-index: 2;
   transition: all 0.3s;
@@ -86,9 +86,9 @@
   background: -ms-linear-gradient(39deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0) 90%);
   background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0) 90%);
   border: 1px solid #354D7D;
-  position: absolute;
-  left: 435px;
-  top: 115px;
+  position: relative;
+  margin: auto;
+  margin-top: 45px;
   z-index: 3;
   transition: all 0.3s;
 }
@@ -117,7 +117,7 @@
   background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0) 90%);
   border: 1px solid #354D7D;
   position: absolute;
-  right: 205px;
+  right: 26%;
   top: 95px;
   z-index: 2;
   transition: all 0.3s;
@@ -147,7 +147,7 @@
   background: linear-gradient(129deg, rgba(17, 26, 43, 0.9) 12%, rgba(17, 26, 43, 0) 90%);
   border: 1px solid #354D7D;
   position: absolute;
-  right: 75px;
+  right: 12%;
   top: 45px;
   z-index: 1;
   transition: all 0.3s;
@@ -168,7 +168,7 @@
 
 /* line 159, ../sass/fisStyle.scss */
 .fron-end {
-  max-width: 1140px;
+  max-width: 90%;
   margin: 0 auto;
   background: #070B14;
   color: #ffffff;
@@ -183,7 +183,7 @@
 
 /* line 172, ../sass/fisStyle.scss */
 .paralax {
-  max-width: 1140px;
+  max-width: 90%;
   background: #070B14;
   margin: 0 auto;
   display: flex;
@@ -192,7 +192,7 @@
 }
 /* line 179, ../sass/fisStyle.scss */
 .paralax .wor {
-  flex: 1;
+  width: 288px;
 }
 /* line 181, ../sass/fisStyle.scss */
 .paralax .wor .wor_text {
@@ -205,72 +205,109 @@
   color: #ffffff;
   text-decoration: none;
 }
-/* line 190, ../sass/fisStyle.scss */
-.paralax .wor img {
-  width: 228px;
-  height: auto;
-}
-/* line 196, ../sass/fisStyle.scss */
+/* line 193, ../sass/fisStyle.scss */
 .paralax .seo {
-  flex: 1;
+  width: 288px;
 }
-/* line 198, ../sass/fisStyle.scss */
+/* line 195, ../sass/fisStyle.scss */
 .paralax .seo h3 {
   margin-top: 33px;
 }
-/* line 201, ../sass/fisStyle.scss */
+/* line 198, ../sass/fisStyle.scss */
 .paralax .seo .seo_text {
   list-style: none;
   margin: 0px;
   padding: 0px;
 }
-/* line 206, ../sass/fisStyle.scss */
+/* line 203, ../sass/fisStyle.scss */
 .paralax .seo .seo_text a {
   color: #ffffff;
   text-decoration: none;
 }
 /* line 211, ../sass/fisStyle.scss */
-.paralax .seo img {
-  width: 80%;
-  height: auto;
-}
-/* line 217, ../sass/fisStyle.scss */
 .paralax .cop {
-  flex: 1;
+  width: 288px;
 }
-/* line 219, ../sass/fisStyle.scss */
+/* line 213, ../sass/fisStyle.scss */
 .paralax .cop .cop_text {
   list-style: none;
   margin: 0px;
   padding: 0px;
 }
-/* line 223, ../sass/fisStyle.scss */
+/* line 217, ../sass/fisStyle.scss */
 .paralax .cop .cop_text a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 228, ../sass/fisStyle.scss */
-.paralax .cop img {
-  width: 80%;
-  height: auto;
-}
-/* line 233, ../sass/fisStyle.scss */
+/* line 224, ../sass/fisStyle.scss */
 .paralax .des {
-  flex: 1;
+  width: 288px;
 }
-/* line 235, ../sass/fisStyle.scss */
+/* line 226, ../sass/fisStyle.scss */
 .paralax .des .des_text {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 239, ../sass/fisStyle.scss */
+/* line 230, ../sass/fisStyle.scss */
 .paralax .des .des_text a {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 244, ../sass/fisStyle.scss */
-.paralax .des img {
-  width: 55%;
-  height: auto;
+
+/* line 238, ../sass/fisStyle.scss */
+.cub1 {
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 4%;
+}
+
+/* line 245, ../sass/fisStyle.scss */
+.cub {
+  max-width: 90%;
+  margin: 0 auto;
+  min-height: 700px;
+  background-image: url(../img/bg_cube.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 252, ../sass/fisStyle.scss */
+.cub #cub {
+  background-image: url(../img/cube.png);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+/* line 258, ../sass/fisStyle.scss */
+.cub #dust1 {
+  background-image: url(../img/dust1.png);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 265, ../sass/fisStyle.scss */
+.cub #dust2 {
+  background-image: url(../img/dust2.png);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 272, ../sass/fisStyle.scss */
+.cub #dust3 {
+  background-image: url(../img/dust3.png);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 279, ../sass/fisStyle.scss */
+.cub #dust4 {
+  background-image: url(../img/dust4.png);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
