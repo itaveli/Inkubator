@@ -5,7 +5,7 @@
   background: #070B14;
   position: relative;
   padding-top: 30px;
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
 }
 /* line 11, ../sass/fisStyle.scss */
@@ -168,7 +168,7 @@
 
 /* line 159, ../sass/fisStyle.scss */
 .fron-end {
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
   background: #070B14;
   color: #ffffff;
@@ -183,7 +183,7 @@
 
 /* line 172, ../sass/fisStyle.scss */
 .paralax {
-  max-width: 90%;
+  max-width: 100%;
   background: #070B14;
   margin: 0 auto;
   display: flex;
@@ -265,7 +265,7 @@
 
 /* line 245, ../sass/fisStyle.scss */
 .cub {
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
   min-height: 700px;
   background-image: url(../img/bg_cube.png);
