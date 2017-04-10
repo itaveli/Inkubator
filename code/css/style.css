@@ -221,23 +221,29 @@ header .menu{
 .sl_slide {
 	position: relative;
 	color: #ffffff;
+	outline: none;
 }
 .sl_text {
 	position: absolute;
 	top: 1px;
-	width: 40%;
+	width: 60%;
 	margin-left: 5%;
 }
 .sl_text h3{
-	font-size: 2rem;
+	font-size: 3rem;
 	text-transform: uppercase;
+}
+.sl_text p {
+	margin-bottom: 50px;
+	font-size: 1.5rem;
 }
 .button {
 	color: rgb(230, 230, 230);
 	font-size: 15px;
-	padding: 10px;
+	padding: 20px 80px;
 	border: 1px solid #ffffff;
 	outline: none;
+	font-size: 1.5rem;
 }
 .slider_process .sl .sl_text a{
 	text-decoration: none;
@@ -296,28 +302,73 @@ header .menu{
 	background: -ms-linear-gradient(30deg, rgb(17, 26, 43) 30%, rgb(9, 15, 26) 70%);
 	background: linear-gradient(120deg, rgb(17, 26, 43) 30%, rgb(9, 15, 26) 70%);
 }
-@media (max-width: 1097px) {
+@media all and (min-width: 1900px) {
+	.sl_text h3{
+		font-size: 4rem;
+	}
+	.sl_text p {
+		font-size: 2rem;
+		margin-bottom: 100px;
+	}
+}
+@media (max-width: 1200px) {
 	.sl_text {
 		width: 60%;
 	}
 	.sl_text h3 {
 		margin: 0;
+		font-size: 2rem;
+	}
+	.sl_text p {
+		margin-bottom: 50px;
+	}
+	.button {
+		color: rgb(230, 230, 230);
+		font-size: 15px;
+		padding: 20px 80px;
+		border: 1px solid #ffffff;
+		outline: none;
+	}
+}
+
+@media (max-width: 1097px) {
+	.sl_text h3 {
+		font-size: 2rem;
+	}
+	.sl_text p {
+		font-size: 1.3rem;
 	}
 	.process {
 		width: 47%;
 	}
 }
+@media (min-width: 961px) and (max-width: 990px) {
+	.sl_text p {
+		margin-bottom: 20px;
+	}
+}
 @media (max-width: 960px) {
 	.sl_text {
 		width: 90%;
+		text-align: center;
+	}
+	.sl_text p {
+		font-size: 1rem;
 	}
 	.process {
 		margin: 0;
+		width: 100%;
+		padding: 15px 0;
+	}
+}
+@media (min-width: 691px) and (max-width: 740px) {
+	.sl_text p {
+		margin-bottom: 20px;
 	}
 }
 @media (max-width: 690px) {
 	.slider_process .sl .sl_img {
-		height: 300px;
+		height: 350px;
 	}
 }
 /*******************************partners****************************/
@@ -334,7 +385,6 @@ header .menu{
 }
 .sl_partners {
 	font-size: 3rem;
-	height: 145px;
 	background: rgb(48, 65, 89);
 	background: -moz-linear-gradient(30deg, rgb(48, 65, 89) 30%, rgb(65, 95, 138) 70%);
 	background: -webkit-linear-gradient(30deg, rgb(48, 65, 89) 30%, rgb(65, 95, 138) 70%);
@@ -344,21 +394,26 @@ header .menu{
 }
 .partners_slide {
 	text-align: center;
+	outline: none;
 }
 /*******************************footer***********************************/
 footer{
 	background-color:#070b14;
-	flex-wrap:wrap;
 	color:#fff;
 	font-weight: 500;
 	display: flex;
-	justify-content: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 50px;
 }
-footer .logo{
-	height:4em;
-	position: relative;
-	flex-basis:12em;
-	margin:5em 5em 0 5em;
+
+footer .logo_ink img, 
+footer .logo_imt img {
+	height: 3.5em;
+	margin: 1em;
+}
+footer .logo_imt img {
+	/*background: rgb(65, 95, 138);*/
 }
 footer a{
 	color: #fff;
@@ -368,29 +423,69 @@ footer a:hover{
 	color:#38c8d7; 
 }
 footer ul{
-	display: inline-flex;
-	flex-direction:column;
-	flex-basis:12em;
 	padding-left:1em;
-	height:8em;
 	list-style: none;
 	border-left:1px solid #fff;
-	margin:5em 4em 4em 2em;
+}
+footer .footer_menu {
+	padding-right: 100px;
 }
 footer .mail{
 	height:2.5em;
 }
+footer li:first-child {
+	margin:0 0 0 1em;
+}
 footer li{
 	margin:1em 0 0 1em;
+}
+@media (max-width: 960px) {
+	footer .logo_ink, 
+	.footer_menu, 
+	.footer_contacts,
+	footer .logo_imt {
+		width: 33%;
+	}
+	.footer_menu, 
+	.footer_contacts {
+		order: 1;
+	}
+
+	footer .logo_ink, 
+	footer .logo_imt {
+		order: 2;
+	}
+	.footer_menu,
+	.footer_contacts,
+	footer .logo_ink, 
+	footer .logo_imt {
+		margin: 40px auto;
+	}
+	footer .footer_menu {
+		padding-right: 0;
+	}
+}
+@media (max-width: 600px) {
+	footer {
+		padding-top: 10px;
+	}
+	.footer_menu, 
+	.footer_contacts {
+		width: 70%;
+		margin: 20px auto;
+	}
+	footer .logo_ink {
+		order: 0;
+	}
 }
 .copyr{
 	color:#fff;
 	font-size: 0.6em;
 	width:100%;
-	display:flex;
-	justify-content: flex-end;
+	margin-right: 20px;
+	text-align: right;
+	order: 10;
 }
-
 .smt{
 	height:300em;
 }
