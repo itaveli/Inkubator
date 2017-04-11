@@ -177,4 +177,23 @@
     .cub {
         min-height: 500px;
     }
+    .menu ul{
+        display: none;
+    }   
+
+    .hidden_menu {
+        display: block;
+    }
+
+    .hidden_menu a {
+        display: block;
+    }
+
+    .hidden_menu i {
+        display: block;
+    }
+
+    .hidden_menu:hover ul{
+        display: block;
+    }
 }

@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 	<title>Inkubator</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">	
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -27,8 +28,19 @@
 <header>
 
 	<a class="logo" href=""><img src="img/cub.png"></a>
+	
+	<div class="hidden_menu">
+		<i class="fa fa-bars fa-3x" aria-hidden="true"><a href=""></a></i>
+		<ul id="hidden_menu">
+			<li><a href="">Главная</a></li>
+			<li><a href="">Услуги</a></li>
+			<li><a href="">О нас</a></li>
+			<li><a href="">Контакты</a></li>
+			<li><a href="" class="mail"><img src="img/mail.svg"></a></li>
+	    </ul>
+	</div>
 	<div class="menu">
-	    <ul >
+	    <ul id="menu">
 			<li><a href="">Главная</a></li>
 			<li><a href="">Услуги</a></li>
 			<li><a href="">О нас</a></li>
@@ -56,7 +68,7 @@
 	<ul id="scene4" class="scene4" style="margin-top: 0px; margin-bottom: 0px;">
 
 			<li class="layer" data-depth="0.06" id="cub" style="margin-left: -5%;"></li>
-			<li class="layer" data-depth="0.01" id="dust1"></li>
+			<li class="layer" data-depth="0.03" id="dust1"></li>
 			<li class="layer" data-depth="0.13" id="dust2"></li>
 			<li class="layer" data-depth="0.30" id="dust3"></li>
 			<li class="layer" data-depth="0.50" id="dust4"></li>			
