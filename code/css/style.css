@@ -55,6 +55,9 @@ header .menu{
 	position:relative;
 	top:0.8em;
 }
+/***************************SUB_MENU***********************/
+
+
 
 /***********************************Banner******************************/
 .banner {
@@ -164,11 +167,16 @@ header .menu{
 	}
 
 	.text {	
-	margin-left: 30%;	
-}
+		position: absolute;
+		top: 200px;
+		margin-left: 40%;
+	}
 
 }
 @media (max-width: 980px) {
+	.text {
+		margin-left: 30%;
+	}
 	.text h1 {
 		position: static;
 	}
@@ -181,15 +189,31 @@ header .menu{
 	}
 }
 @media (max-width: 760px) {
-	.cube {
-		background: url(../img/cube_760.png) no-repeat;
-		background-size: auto;
-	}
 	.text {
-	
-	margin-left: 0%;
-	
+		margin-left: 5%;
+	}
 }
+/*выключение куба*/
+@media (max-width: 660px) {
+	/*выключение куба***********************************/
+	#scene4 {
+		display: none;
+	}
+	/*выключение куба***********************************/
+	.text {
+		margin-left: 5%;
+	}
+}
+@media (max-width: 560px) {
+	.text {
+		margin-left: 1%;
+	}
+}
+@media (max-width: 440px) {
+	.text h1{
+		padding-top: 0;
+		font-size: 2rem;
+	}
 }
 .banner {
 	padding-bottom: 200px;
