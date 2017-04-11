@@ -172,3 +172,9 @@
         background: none;
     }
 }
+
+@media (max-width: 660px) {
+    .cub {
+        min-height: 500px;
+    }
+}
