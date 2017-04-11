@@ -30,7 +30,7 @@
 			z-index: 1;		
 			transition: all 0.3s;	
 				&:hover {
-					z-index: 4;
+					z-index: 10;
 					transform: scale(1.07);
 				}	
 				.work_1_1 {					
@@ -58,7 +58,7 @@
 			z-index: 2;
 			transition: all 0.3s;
 				&:hover {
-					z-index: 4;
+					z-index: 10;
 					transform: scale(1.07);
 				}	
 				.work_2_1 {					
@@ -86,7 +86,7 @@
 			z-index: 3;
 			transition: all 0.3s;
 				&:hover {
-					z-index: 4;
+					z-index: 10;
 					transform: scale(1.07);
 				}	
 				.work_3_1 {					
@@ -114,7 +114,7 @@
 			z-index: 2;
 			transition: all 0.3s;
 				&:hover {
-					z-index: 4;
+					z-index: 10;
 					transform: scale(1.07);
 				}	
 				.work_4_1 {					
@@ -142,7 +142,7 @@
 			z-index: 1;
 			transition: all 0.3s;
 				&:hover {
-					z-index: 3;
+					z-index: 10;
 					transform: scale(1.07);
 				}	
 				.work_5_1 {					

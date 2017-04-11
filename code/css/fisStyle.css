@@ -34,7 +34,7 @@
 }
 /* line 32, ../sass/fisStyle.scss */
 .ourWorks .work_1:hover {
-  z-index: 4;
+  z-index: 10;
   transform: scale(1.07);
 }
 /* line 36, ../sass/fisStyle.scss */
@@ -64,7 +64,7 @@
 }
 /* line 60, ../sass/fisStyle.scss */
 .ourWorks .work_2:hover {
-  z-index: 4;
+  z-index: 10;
   transform: scale(1.07);
 }
 /* line 64, ../sass/fisStyle.scss */
@@ -94,7 +94,7 @@
 }
 /* line 88, ../sass/fisStyle.scss */
 .ourWorks .work_3:hover {
-  z-index: 4;
+  z-index: 10;
   transform: scale(1.07);
 }
 /* line 92, ../sass/fisStyle.scss */
@@ -124,7 +124,7 @@
 }
 /* line 116, ../sass/fisStyle.scss */
 .ourWorks .work_4:hover {
-  z-index: 4;
+  z-index: 10;
   transform: scale(1.07);
 }
 /* line 120, ../sass/fisStyle.scss */
@@ -154,7 +154,7 @@
 }
 /* line 144, ../sass/fisStyle.scss */
 .ourWorks .work_5:hover {
-  z-index: 3;
+  z-index: 10;
   transform: scale(1.07);
 }
 /* line 148, ../sass/fisStyle.scss */
