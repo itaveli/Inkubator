@@ -57,8 +57,12 @@ header .menu{
 }
 /***************************SUB_MENU***********************/
 @media (max-width: 660px) {
+	.space {
+		display: none;
+	}
 	header {
 		height: 15em;
+		position: static;
 	}
 
 	header ul {
@@ -213,6 +217,7 @@ header .menu{
 	/*выключение куба***********************************/
 	.text {
 		margin-left: 5%;
+		margin-top: 100px;
 	}
 }
 @media (max-width: 560px) {
