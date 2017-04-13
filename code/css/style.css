@@ -322,6 +322,39 @@ header .menu{
 	left: 50%;
 	margin: -1px 0 0 -1px;
 }
+/*.slick-dots li:before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: -39%;
+    height: 12px;
+    width: 80%;
+    background-color: #00589c;
+    z-index: 1;
+}
+.slick-dots li:first-child:before {
+    content: none;
+}
+.slick-dots li.slick-active button {
+    border-color: #d6e4ef;
+}
+
+.slick-dots li.slick-active button:before
+{
+    background: #a1bcd3;
+    opacity: 1;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin: -1px 0 0 -1px;
+}
+.slick-dots li.slick-active:before
+{
+	background-color: #a1bcd3;
+}*/
+
 .slider_process {
 	position: relative;
 }
