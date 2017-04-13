@@ -200,6 +200,7 @@
 .slick-dots li.slick-active button {
     border-color: #d6e4ef;
 }
+
 .slick-dots li.slick-active button:before
 {
     background: #a1bcd3;
@@ -211,3 +212,6 @@
     left: 50%;
     margin: -1px 0 0 -1px;
 }
+
+/****************изменял***************************/
+

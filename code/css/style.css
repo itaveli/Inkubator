@@ -292,19 +292,19 @@ header .menu{
 	margin-bottom: 50px;
 }
 .slick-dots { 
-	position: static;
-	padding-bottom: 60px;
+	position: relative;
+	
 	margin-top: -50px;
 }
 .slick-dots li {
-	margin: 100px 5% 0 5%;
-
+	padding: 70px 3% 70px 3% ;
 }
 .slick-dots li button {
 	border: 10px solid #00589c;
 	border-radius: 50%;
 	width: 32px;
 	height: 32px;
+
 }
 .slick-dots li button:before {
 	content: "";
@@ -414,7 +414,6 @@ header .menu{
 /*******************************partners****************************/
 .slider_partners {
 	max-width: 100%;
-	margin: 0 auto;
 }
 .partners {
 	font-size: 1.7rem;
@@ -534,6 +533,40 @@ footer li{
 
 
 
+.progressBarContainer {
+  position: absolute;
+  bottom: 44px;
+  width:100%;
+  left:31%;
+  z-index: 2;
+}
+
+.progressBarContainer div {
+  display: block;
+  width: 6%;
+  padding: 0;
+  cursor: pointer;
+  margin-right: 30px;
+  float: left;
+  color: white;
+}
+
+.progressBarContainer div:last-child {
+  margin-right: 0;
+}
+
+.progressBarContainer div span.progressBar {
+  width: 100%;
+  height: 12px;
+  background-color: #00589c;
+  display: block;
+}
+
+.progressBarContainer div span.progressBar .inProgress {
+  background-color:  #a1bcd3;
+  width: 0%;
+  height: 12px;
+}
 
 
 
