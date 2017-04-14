@@ -1,13 +1,13 @@
-  $('.slider_banner').slick({
+/*  $('.slider_banner').slick({
   	slidesToScroll: 1,
   	autoplay: true,
   	autoplaySpeed: 3000,
   	arrows: false,
   	infinite: true,
-  	speed: 150,
-  	fade: true,
+  	speed: 150
+  	fade: true
   	cssEase: 'linear'
-  });
+  });*/
   
 /*  $('.sl').slick({
   	slidesToScroll: 1,
@@ -23,7 +23,7 @@
 */
   $('.sl_partners').slick({
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
@@ -69,7 +69,7 @@ $(".sl").slick({
 });
 
  //ticking machine
-    var percentTime;
+   /* var percentTime;
     var tick;
     var time = 1;
     var progressBarIndex = 0;
@@ -119,4 +119,4 @@ $(".sl").slick({
       var goToThisIndex = $(this).find("span").data("slickIndex");
       $('.single-item').slick('slickGoTo', goToThisIndex, false);
       startProgressbar();
-    });
+    });*/

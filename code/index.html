@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<script type="text/javascript" src="js/jquery-3.2.0.js"></script>	
 	<script src="js/parallax.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -48,12 +49,12 @@
 		<div class="text">
 	    	<h1>Вырастим ваш сайт<br>с помощью</h1>
 	    		<div class="slider_banner">
-	    		<div>html</div>
-	    		<div>css</div>
-	    		<div>seo</div>
-	    		<div>smm</div>
-	    </div>
-	    <div class="small_text"><p>InCubator - web-студия, всегда рад помочь сделать<br>качественный сайт недорого.</p></div>
+		    		<div id="text_slide1">html</div>
+		    		<div id="text_slide2">css</div>
+		    		<div id="text_slide3">seo</div>
+		    		<div id="text_slide4">smm</div>
+	    		</div>
+	    	<div class="small_text"><p>InCubator - web-студия, всегда рад помочь сделать<br>качественный сайт недорого.</p></div>
 	    </div>
 			<ul id="scene4" class="scene4" style="margin-top: 0px; margin-bottom: 0px;">
 				<li class="layer" data-depth="0.06" id="cub" style="margin-left: -5%;"></li>
@@ -185,7 +186,7 @@
    				</div>
    		</div>
    	</div>
-   	<div class="progressBarContainer">
+   	<!-- <div class="progressBarContainer">
     <div>
       
       <span data-slick-index="0" class="progressBar"></span>
@@ -206,7 +207,7 @@
      
       <span data-slick-index="4" class="progressBar"></span>
     </div>
-  </div>
+  </div> -->
 </div>
 <div class="slider_partners">
     <div class="partners">Наши партнёры</div>
@@ -268,6 +269,21 @@
 	var parallax = new Parallax(scene);
 
 </script>
+
+<script type="text/javascript">  
+var text_slide_cur=0;
+function showtext_slide(){
+    $('#text_slide'+(text_slide_cur+1)).css({opacity: 0}).animate({opacity: 1.0/*,left: "50px"*/}, 1000);
+    setTimeout(hidetext_slide, 3000);
+}
+function hidetext_slide(){
+    $('#text_slide'+(text_slide_cur+1)).css({opacity: 1}).animate({opacity: 0/*,left: "-50px"*/}, 1000,function(){showtext_slide();});
+    text_slide_cur=(text_slide_cur+1)%4;
+}
+$(document).ready(function() {
+    showtext_slide();
+})
+</script> 
 <script type="text/javascript" src="js/slick.js"></script>
 <script type="text/javascript" src="js/slider_banner.js"></script>
 </body>
