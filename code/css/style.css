@@ -181,7 +181,16 @@ header .menu{
     margin-left: -85px;
     opacity:0;
 }
-
+.fron-end {
+    position: relative;
+}
+.gradient {
+    height: 100px;
+    background-image: linear-gradient(rgba(7,11,22,0), rgba(7,11,22,1));
+    position: absolute;
+    width:100%;
+    top:-100px;
+}
 @media (max-width: 1900px) {
 	#text_slide2, #text_slide3 {
 	    position: absolute;
