@@ -12,6 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/fisStyle.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="css/remodal.css">
+ <link rel="stylesheet"  href="css/remodal-default-theme.css">
 	<script type="text/javascript" src="js/jquery-3.2.0.js"></script>	
 	<script src="js/parallax.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -38,7 +40,7 @@
 			<li><a href="">Услуги</a></li>
 			<li><a href="">О нас</a></li>
 			<li><a href="">Контакты</a></li>
-			<li><a href="" class="mail"><img src="img/mail.svg" alt=""></a></li>
+			<li><a href="#modal" class="mail"><img src="img/mail.svg" alt=""></a></li>
 	    </ul>	
     </div>
 </header>
@@ -46,16 +48,20 @@
 
 <section class="cub">
 	<div class="cub1">
-		<div class="text">
-	    	<h1>Вырастим ваш сайт<br>с помощью</h1>
-	    		<div class="slider_banner">
-		    		<div id="text_slide1">html</div>
-		    		<div id="text_slide2">css</div>
-		    		<div id="text_slide3">seo</div>
-		    		<div id="text_slide4">smm</div>
-	    		</div>
-	    	<div class="small_text"><p>InCubator - web-студия, всегда рад помочь сделать<br>качественный сайт недорого.</p></div>
-	    </div>
+        <div class="intro-box">
+            <div class="text bannerinner">
+                <h1>МЫ РАЗРАБАТЫВАЕМ<br>И ПРОДВИГАЕМ САЙТЫ</h1>
+                <ul class="text slidertext">
+                	<li class=" shown"><p>ДИЗАЙН</p></li>
+                	<li class=""><p>РАЗРАБОТКА</p></li>
+                	<li class=""><p>SEO ОПТИМИЗАЦИЯ</p></li>
+                	<li class=""><p>SMM</p></li>
+                	<li class=""><p>КОПИРАЙТИНГ</p></li>
+                	<li class=""><p>КОНТЕКСТНАЯ РЕКЛАМА</p></li>
+                </ul>
+                <p class="small_text">У нас есть всё что нужно большим и маленьким сайтам	&#169; Web-студия INCUBATOR </p>
+            </div>
+        </div>
 			<ul id="scene4" class="scene4" style="margin-top: 0px; margin-bottom: 0px;">
 				<li class="layer" data-depth="0.06" id="cub" style="margin-left: -5%;"></li>
 				<li class="layer" data-depth="0.03" id="dust1"></li>
@@ -67,61 +73,74 @@
 </section>
 
 <section class="fron-end">
-	<div class="gradient"></div>
-	<h3>МЫ ОКАЗЫВАЕМ ЛЮБЫЕ FRONT-END<br>УСЛУГИ</h3>
-	<div class="paralax">
-		<div class="wor">
-			<ul id="scene" class="scene">
-				<li class="layer" data-depth="0.07" style="margin-top: 3px; margin-left: -30px;"><a href="#"><img src="img/wor/1.png" alt=""></a></li>
-				<li class="layer" data-depth="-0.09" style="margin-top: 3px;"><a href="#"><img src="img/wor/2.png" alt=""></a></li>			
-			</ul>
-		<h4>РАЗРАБОТКА</h4>
-			<ul class="wor_text">
-				<li><a href="#">Подпункт</a></li>
-				<li><a href="#">Подпункт</a></li>
-				<li><a href="#">Подпункт</a></li>			
-			</ul>
-		</div>	
-		<div class="des">
-			<ul id="scene3" class="scene3">
-				<li class="layer" data-depth="0.07" style="margin-top: -11px; margin-left: -9%"><a href="#"><img src="img/des/1.png" alt=""></a></li>
-				<li class="layer" data-depth="-0.09" style="margin-top: 5px; margin-left: 6%"><a href="#"><img src="img/des/2.png" alt=""></a></li>
-				<li class="layer" data-depth="-0.11" style="margin-left: 5%;"><a href="#"><img src="img/des/3.png" alt=""></a></li>
-				<li class="layer" data-depth="-0.18" style="margin-left: 5%;"><a href="#"><img src="img/des/4.png" alt=""></a></li>				
-			</ul>
-			<h4>ДИЗАЙН</h4>
-			<ul class="des_text">
-				<li><a href="#">Подпункт</a></li>
-				<li><a href="#">Подпункт</a></li>
-				<li><a href="#">Подпункт</a></li>			
-			</ul>
-		</div>
-		<div class="cop">
-			<ul id="scene2" class="scene2">
-				<li class="layer" data-depth="0.07" style="margin-top: 34px; margin-left: -16%;"><a href="#"><img src="img/cop/1.png" alt=""></a></li>
-				<li class="layer" data-depth="-0.09" style="margin-top: 9px;"><a href="#"><img src="img/cop/2.png" alt=""></a></li>
-				<li class="layer" data-depth="-0.16" style="margin-top: 15px;"><a href="#"><img src="img/cop/3.png" alt=""></a></li>				
-			</ul>
-			<h4>КОПИРАЙТИНГ</h4>
-			<ul class="cop_text">
-				<li><a href="#">Подпункт</a></li>
-				<li><a href="#">Подпункт</a></li>
-				<li><a href="#">Подпункт</a></li>			
-			</ul>
-		</div>
-		<div class="seo">
-			<ul id="scene1" class="scene1">
-				<li class="layer" data-depth="0.07" style="margin-top: 32px; margin-left: -16%;"><a href="#"><img src="img/seo/1.png" alt=""></a></li>
-				<li class="layer" data-depth="-0.09" style="margin-top: 8px;"><a href="#"><img src="img/seo/2.png" alt=""></a></li>			
-			</ul>
-			<h4>ПРОДВИЖЕНИЕ</h4>
-			<ul class="seo_text">
-				<li><a href="#">Подпункт</a></li>
-				<li><a href="#">Подпункт</a></li>
-				<li><a href="#">Подпункт</a></li>			
-			</ul>
-		</div>	
-	</div>
+    <div class="gradient"></div>
+	<div class="about-short">
+        <p>Web-студия INCUBATOR комплексно создает сайты любой сложности. Мы разрабатываем решения для любых задачь. Прорабатываем каждый этап создания сайта, чтобы не расходуя лишних средств сделать его качественным.</p>
+        <div class="plus">
+            <div class="plus_first"><i class="fa fa-bomb" aria-hidden="true"></i><p>В своей работе мы используем всесторонний подход, вникаем в суть задачи клиента, используем передовые технологии, учитываем тонкости дизайна, менеджмента и маркетинга.</p></div>
+        
+            <div class="plus_second"><i class="fa fa-ban" aria-hidden="true"></i><p>Вам не придется  тратить свое время. Мы бесплатно установим сайт на хостинг. Поможем выбрать ssl сертификат и переведем сайт на протокол HTTPS.</p></div>
+        
+            <div class="plus_third"><i class="fa fa-anchor" aria-hidden="true"></i><p>Клиент получает набор инструкций по управлению  сайтом. Благодаря системе CMS, даже не разбираясь в коде вы с легкостью сможете управлять сайтом и изменять его наполнение.</p> </div>
+        
+            <div class="plus_fourth"><i class="fa fa-bar-chart" aria-hidden="true"></i><p>Предоставляем услуги тех поддержки и сопровождения сайта.</p></div>
+        </div>
+
+        <h3>ПОЛНЫЙ СПЕКТР FRONT-END УСЛУГ</h3>
+    </div>
+<!--------------------------------------------icons begin-->
+    <div class="front_icons1">
+        <div class="wor1">
+            <div class="wor1_img">
+                <img class="to_right" src="img/wor1/1.png">
+            </div>
+            <h4>Разработка</h4>
+            <ul>
+                <li><a href="#">ИНТЕРНЕТ-МАГАЗИН</a></li>
+				<li><a href="#">LANDING PAGE</a></li>
+				<li><a href="#">САЙТ-ВИЗИТКА</a></li>
+				<li><a href="#">КОРПОРАТИВНЫЙ САЙТ</a></li>		
+            </ul>
+        </div>
+        <div class="des1">
+            <div class="des1_img">
+                <img class="to_right" src="img/des1/2.png">
+            </div>
+            <h4>Дизайн</h4>
+            <ul>
+                <li><a href="#">РАЗРАБОТКА ЛОГОТИПА</a></li>
+				<li><a href="#">ИНДИВИДУАЛЬНЫЙ</a></li>
+				<li><a href="#">АДАПТИВНЫЙ</a></li>	
+				<li><a href="#">ИНТУИТИВНО ПОНЯТНЫЙ</a></li>	
+            </ul>
+        </div>
+        <div class="copy1">
+            <div class="cop1_img">
+                <img class="to_right" src="img/cop1/2.png">
+            </div>
+            <h4>Копирайтинг</h4>
+            <ul>
+                <li><a href="#">УНИКАЛЬНЫЙ</a></li>
+				<li><a href="#">СТАТЬИ</a></li>
+				<li><a href="#">КОНТЕНТ</a></li>	
+				<li><a href="#">ПРОДАЮЩИЙ</a></li>		
+            </ul>
+        </div>
+        
+        <div class="seo1">
+            <div class="seo1_img">
+                <img class="to_right" src="img/seo1/1.png">
+            </div>
+            <h4>Продвижение</h4>
+            <ul>
+                <li><a href="#">SEO ОПТИМИЗАЦИЯ</a></li>
+				<li><a href="#">SMM</a></li>
+				<li><a href="#">АУДИТ</a></li>	
+				<li><a href="#">КОНТЕКСТНАЯ РЕКЛАМА</a></li>	
+            </ul>
+        </div>
+    </div>
+    <h3>МЫ ОКАЗЫВАЕМ ЛЮБЫЕ FRONT-END<br>УСЛУГИ</h3>
 </section>
 
 
@@ -187,28 +206,6 @@
    				</div>
    		</div>
    	</div>
-   	<!-- <div class="progressBarContainer">
-    <div>
-      
-      <span data-slick-index="0" class="progressBar"></span>
-    </div>
-    <div>
-      
-      <span data-slick-index="1" class="progressBar"></span>
-    </div>
-    <div>
-      
-      <span data-slick-index="2" class="progressBar"></span>
-    </div>
-        <div>
-      
-      <span data-slick-index="3" class="progressBar"></span>
-    </div>
-        <div>
-     
-      <span data-slick-index="4" class="progressBar"></span>
-    </div>
-  </div> -->
 </div>
 <div class="slider_partners">
     <div class="partners">Наши партнёры</div>
@@ -247,7 +244,7 @@
 		<li><a href="">Группы</a></li>
 	</ul>
 	<ul class="footer_contacts">
-		<li><a href=""><img class="mail" src="img/mail.svg" alt=""></a></li>
+		<li><a href="#modal"><img class="mail" src="img/mail.svg" alt=""></a></li>
 		<li><a href="">0505555557</a></li>
 		<li><a href="">чья-то.почта@gmail.com</a></li>
 	</ul>
@@ -255,23 +252,41 @@
 	<p class="copyr">COPYRIGHT HERE</p>
 </footer>
 
+
+
+</div> 
+<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+ <div class="remodalBorder">
+  <p><img src="img/sendico.png"></p>
+  <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+      <form id="form">
+        <h2 id="modal1Title">Оставьте ваши контактные данные и наш консультант свяжется <br>с вами</h2>
+        <input type="text" class="putName" name="name" placeholder="Ваше ваше имя" required>
+        <input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона" title="Формат ввода 050 50 505 50" pattern="[0-9]{10}" required>
+        <input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+        <input type="hidden" name="formData" value="Заявка с сайта">
+        
+    </form>
+</div>
+050 50 505 50
+
 <script>
 	//paralax banner
 
-	var scene = document.getElementById('scene');
+/*	var scene = document.getElementById('scene');
 	var parallax = new Parallax(scene);
 	var scene = document.getElementById('scene1');
 	var parallax = new Parallax(scene);
 	var scene = document.getElementById('scene2');
 	var parallax = new Parallax(scene);
 	var scene = document.getElementById('scene3');
-	var parallax = new Parallax(scene);
+	var parallax = new Parallax(scene);*/
 	var scene = document.getElementById('scene4');
 	var parallax = new Parallax(scene);
 
 </script>
 
-<script type="text/javascript">  
+<!--<script type="text/javascript">  
 var text_slide_cur=0;
 function showtext_slide(){
     $('#text_slide'+(text_slide_cur+1)).css({opacity: 0}).animate({opacity: 1.0/*,left: "50px"*/}, 1000);
@@ -284,8 +299,17 @@ function hidetext_slide(){
 $(document).ready(function() {
     showtext_slide();
 })
-</script> 
+</script> -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        Rotator();
+    })
+</script>
 <script type="text/javascript" src="js/slick.js"></script>
 <script type="text/javascript" src="js/slider_banner.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+<script src="js/remodal.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/rotate_text.js"></script>
 </body>
 </html>
