@@ -8,25 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.css">	
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<script src="js/parallax.js"></script>
+
 </head>
 
 <body>
 	<!-- <div class="space"></div> -->
 
 <header>
-	<a class="logo" href=""><img src="img/cub.png" alt=""></a>	
-<!-- 	<div class="hidden_menu">
-	<i class="fa fa-bars fa-3x" aria-hidden="true"><a href=""></a></i>
-	<ul id="hidden_menu">
-		<li><a href="#">Главная</a></li>
-		<li><a href="#">Услуги</a></li>
-		<li><a href="#">О нас</a></li>
-		<li><a href="#">Контакты</a></li>
-		<li><a href="#" class="mail"><img src="img/mail.svg" alt=""></a></li>
-    </ul>
-</div> -->
-	<div class="menu">
-	    <ul id="menu">
+	<a class="logo" href=""><img src="img/cub.png" alt=""></a>
+	<div class="main_nav">
+		<ul class="main_menu">
+			<li><a href="">Главная</a></li>
+			<li><a href="">Услуги</a></li>
+			<li><a href="">О нас</a></li>
+			<li><a href="">Контакты</a></li>
+			<li><a href="#modal" class="mail"><img src="img/mail.svg" alt=""></a></li>
+		</ul>
+	</div>
+	<div class="nav">
+		<div class="menu-icon"><svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h48v48h-48z" fill="none"/><path d="M6 36h36v-4h-36v4zm0-10h36v-4h-36v4zm0-14v4h36v-4h-36z"/></svg></div>
+	    <ul class="menu">
 			<li><a href="">Главная</a></li>
 			<li><a href="">Услуги</a></li>
 			<li><a href="">О нас</a></li>
@@ -35,6 +39,124 @@
 	    </ul>	
     </div>
 </header>
+<section class="cub">
+	<div class="cub1">
+       <div class="intro-box">
+           <div class="text bannerinner">
+               <h1>МЫ РАЗРАБАТЫВАЕМ<br>И ПРОДВИГАЕМ САЙТЫ</h1>
+               <ul class="text slidertext">
+               	<li class="shown"><p>ДИЗАЙН</p></li>
+               	<li class=""><p>РАЗРАБОТКА</p></li>
+               	<li class=""><p>SEO ОПТИМИЗАЦИЯ</p></li>
+               	<li class=""><p>SMM</p></li>
+               	<li class=""><p>КОПИРАЙТИНГ</p></li>
+               	<li class=""><p>КОНТЕКСТНАЯ РЕКЛАМА</p></li>
+               </ul>
+               <p class="small_text">У нас есть всё что нужно большим и маленьким сайтам	&#169; Web-студия INCUBATOR </p>
+           </div>
+       </div>
+		<ul id="scene4" class="scene4" style="margin-top: 0px; margin-bottom: 0px;">
+			<li class="layer" data-depth="0.06" id="cub" style="margin-left: -5%;"></li>
+			<li class="layer" data-depth="0.03" id="dust1"></li>
+			<li class="layer" data-depth="0.13" id="dust2"></li>
+			<li class="layer" data-depth="0.30" id="dust3"></li>
+			<li class="layer" data-depth="0.50" id="dust4"></li>			
+		</ul>
+	</div>
+</section>
+<section class="fron-end">
+    <div class="gradient"></div>
+	<div class="about-short">
+        <p>Web-студия INCUBATOR комплексно создает сайты любой сложности. Мы разрабатываем решения для любых задачь. Прорабатываем каждый этап создания сайта, чтобы не расходуя лишних средств сделать его качественным.</p>
+        <div class="plus">
+            <div class="plus_first"><i class="fa fa-bomb" aria-hidden="true"></i><p>В своей работе мы используем всесторонний подход, вникаем в суть задачи клиента, используем передовые технологии, учитываем тонкости дизайна, менеджмента и маркетинга.</p></div>
+        
+            <div class="plus_second"><i class="fa fa-ban" aria-hidden="true"></i><p>Вам не придется  тратить свое время. Мы бесплатно установим сайт на хостинг. Поможем выбрать ssl сертификат и переведем сайт на протокол HTTPS.</p></div>
+        
+            <div class="plus_third"><i class="fa fa-anchor" aria-hidden="true"></i><p>Клиент получает набор инструкций по управлению  сайтом. Благодаря системе CMS, даже не разбираясь в коде вы с легкостью сможете управлять сайтом и изменять его наполнение.</p> </div>
+        
+            <div class="plus_fourth"><i class="fa fa-bar-chart" aria-hidden="true"></i><p>Предоставляем услуги тех поддержки и сопровождения сайта.</p></div>
+        </div>
 
+        <h3>ПОЛНЫЙ СПЕКТР FRONT-END УСЛУГ</h3>
+    </div>
+icons begin
+    <div class="front_icons1">
+        <div class="wor1">
+            <div class="wor1_img">
+                <img class="to_right" src="img/wor1/1.png">
+            </div>
+            <h4>Разработка</h4>
+            <ul>
+                <li><a href="#">ИНТЕРНЕТ-МАГАЗИН</a></li>
+				<li><a href="#">LANDING PAGE</a></li>
+				<li><a href="#">САЙТ-ВИЗИТКА</a></li>
+				<li><a href="#">КОРПОРАТИВНЫЙ САЙТ</a></li>		
+            </ul>
+        </div>
+        <div class="des1">
+            <div class="des1_img">
+                <img class="to_right" src="img/des1/2.png">
+            </div>
+            <h4>Дизайн</h4>
+            <ul>
+                <li><a href="#">РАЗРАБОТКА ЛОГОТИПА</a></li>
+				<li><a href="#">ИНДИВИДУАЛЬНЫЙ</a></li>
+				<li><a href="#">АДАПТИВНЫЙ</a></li>	
+				<li><a href="#">ИНТУИТИВНО ПОНЯТНЫЙ</a></li>	
+            </ul>
+        </div>
+        <div class="copy1">
+            <div class="cop1_img">
+                <img class="to_right" src="img/cop1/2.png">
+            </div>
+            <h4>Копирайтинг</h4>
+            <ul>
+                <li><a href="#">УНИКАЛЬНЫЙ</a></li>
+				<li><a href="#">СТАТЬИ</a></li>
+				<li><a href="#">КОНТЕНТ</a></li>	
+				<li><a href="#">ПРОДАЮЩИЙ</a></li>		
+            </ul>
+        </div>
+        
+        <div class="seo1">
+            <div class="seo1_img">
+                <img class="to_right" src="img/seo1/1.png">
+            </div>
+            <h4>Продвижение</h4>
+            <ul>
+                <li><a href="#">SEO ОПТИМИЗАЦИЯ</a></li>
+				<li><a href="#">SMM</a></li>
+				<li><a href="#">АУДИТ</a></li>	
+				<li><a href="#">КОНТЕКСТНАЯ РЕКЛАМА</a></li>	
+            </ul>
+        </div>
+    </div>
+    <h3>МЫ ОКАЗЫВАЕМ ЛЮБЫЕ FRONT-END<br>УСЛУГИ</h3>
+</section>
 </body>
+<script type="text/javascript">
+	$('.menu-icon').click(function(){
+	$('.menu').toggle();
+});</script>
+<script>
+	//paralax banner
+
+/*	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+	var scene = document.getElementById('scene1');
+	var parallax = new Parallax(scene);
+	var scene = document.getElementById('scene2');
+	var parallax = new Parallax(scene);
+	var scene = document.getElementById('scene3');
+	var parallax = new Parallax(scene);*/
+	var scene = document.getElementById('scene4');
+	var parallax = new Parallax(scene);
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        Rotator();
+    })
+</script>
+<script src="js/rotate_text.js"></script>
 </html>
